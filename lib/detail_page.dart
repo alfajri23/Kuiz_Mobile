@@ -58,10 +58,10 @@ class _DetailPageState extends State<DetailPage> {
                       Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          // Icon(
-                          //   Icons.star,
-                          // ),
-                          Text('0xe6e7'),
+                          Icon(
+                            Icons.star,
+                          ),
+                          //Text('0xe6e7'),
                           Text(place.facility[i])
                         ],
                       )
