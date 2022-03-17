@@ -42,6 +42,7 @@ class _DetailPageState extends State<DetailPage> {
                 Text(place.name),
                 Center(
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       for (var i = 0; i < int.parse(place.stars); i++)
                         Icon(
@@ -53,6 +54,7 @@ class _DetailPageState extends State<DetailPage> {
                 Text(place.location),
                 Text(place.roomPrice),
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     for (var i = 0; i < place.facility.length; i++)
                       Column(
